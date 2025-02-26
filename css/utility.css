@@ -1,0 +1,79 @@
+/*Cháº¥t lÆ°á»£ng & cĂ´ng dá»¥ng*/
+.main_clcd { margin: 45px 0 35px 0; }
+.utility-cate { margin-top: 110px; position: relative; padding-bottom: 100px; }
+.utility-wrap { width: 712px; margin: auto; position: relative;  }
+.ellip-cir { display: block; margin: 0 auto;	/* flip img */ -moz-transform: scale(-1); -o-transform: scale(-1); -webkit-transform: scale(-1); transform: scale(-1); filter: FlipH; -ms-filter: "FlipH";	/* end flip img */ position: relative; }
+.ellip-cir .ellipse { stroke: #fff; stroke-width: 2; stroke-dasharray: 1870; stroke-dashoffset: 1870;	/*animation: offset 16s linear forwards;*/ }
+.utility-item { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.utility-item .why-item { width: 180px; height: 180px; border-radius: 50%; position: absolute; margin: auto; opacity: 0; text-align: center; }
+.utility-item .why-item p { 
+	font-family: "SVN-AvenirNextBold";
+	font-size: 15px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 108%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #fff;
+}
+
+.why-item img{ border-radius: 50%;padding: 5px; border: 1px dashed #fff;display: block;margin: auto;}
+
+.utility-item .why-item:nth-of-type(1) { left: -5%; bottom: 50px;	 }
+.utility-item .why-item:nth-of-type(2) { left: 15%; top: -25px; }
+.utility-item .why-item:nth-of-type(3) { right: 13%; top: -25px; }
+.utility-item .why-item:nth-of-type(4) { right: -5%; bottom: 50px;	 }
+.utility-item .why-item:nth-of-type(5) { left: calc(50% - 90px); bottom: -70px; 	 }
+@keyframes offset {
+	100% { stroke-dashoffset: 0; }
+}
+@-webkit-keyframes offset {
+	100% { stroke-dashoffset: 0; }
+}
+@keyframes fade {
+	0% { opacity: 0; }
+	50% { opacity: 0; }
+	95% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-webkit-keyframes fade {
+	0% { opacity: 0; }
+	50% { opacity: 0; }
+	95% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes fade-down {
+	100% { opacity: 1; bottom: 0; }
+}
+@-webkit-keyframes fade-down {
+	100% { opacity: 1; bottom: 0; }
+}
+@keyframes fade-slow {
+	100% { opacity: 1; }
+}
+@-webkit-keyframes fade-slow {
+	100% { opacity: 1; }
+}
+@keyframes fade-down-top {
+	100% { top: 0; }
+}
+@-webkit-keyframes fade-down-top {
+	100% { top: 0; }
+}
+@keyframes fade-left {
+	100% { opacity: 1; left: 0; }
+}
+@-webkit-keyframes fade-left {
+	100% { opacity: 1; left: 0; }
+}
+@keyframes fade-right {
+	100% { opacity: 1; right: 0; }
+}
+@-webkit-keyframes fade-right {
+	100% { opacity: 1; right: 0; }
+}
+
+
+
+/*TiĂªu chĂ­*/
