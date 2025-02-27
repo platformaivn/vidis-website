@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
         elements_selector: ".lazy"
     });
     // Back top
-    $('body').append('<div id="top" ><img src="images/commont/top.png" alt="top"/></div>');
+    $('body').append('<div id="top" ><img src="/cdn/17/images/commont/top.png" alt="top"/></div>');
     $(window).scroll(function() {
         if($(window).scrollTop() > 100) {
             $('#top').fadeIn();
