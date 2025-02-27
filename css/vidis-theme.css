@@ -1,0 +1,130 @@
+:root {
+  --primary-color: #ffc107; /* Yellow */
+  --secondary-color: #212121; /* Black */
+  --accent-color: #ffeb3b; /* Light Yellow */
+  --text-light: #ffffff;
+  --text-dark: #212121;
+  --bg-light: #f9f9f9;
+  --bg-dark: #212121;
+}
+
+/* Header styling */
+#header {
+  background-color: var(--secondary-color);
+}
+
+.header {
+  border-bottom: 3px solid var(--primary-color);
+}
+
+/* Navigation styling */
+#menu .menu > li > a {
+  color: var(--text-light);
+}
+
+#menu .menu > li:hover > a,
+#menu .menu > li.menu_active > a {
+  color: var(--primary-color);
+}
+
+/* Button styling */
+.more, button[type="submit"], #btn {
+  background-color: var(--primary-color);
+  color: var(--text-dark);
+  border: 2px solid var(--primary-color);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.more:hover, button[type="submit"]:hover, #btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/* Title styling */
+.title_main span, .title-why span, .title-news {
+  color: var(--secondary-color);
+  border-bottom: 3px solid var(--primary-color);
+}
+
+/* Service boxes */
+.service-box {
+  border: 2px solid var(--primary-color);
+  background-color: var(--bg-light);
+  transition: all 0.3s ease;
+}
+
+.service-box:hover {
+  background-color: var(--primary-color);
+}
+
+.service-box h3 {
+  color: var(--secondary-color);
+}
+
+.service-box:hover h3,
+.service-box:hover p {
+  color: var(--text-dark);
+}
+
+.service-icon {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin: 0 auto 20px;
+  font-size: 32px;
+}
+
+.service-box:hover .service-icon {
+  background-color: var(--bg-light);
+  color: var(--secondary-color);
+}
+
+/* Why choose us section */
+#why {
+  background-color: var(--secondary-color) !important;
+}
+
+.why-item p {
+  color: var(--primary-color);
+}
+
+/* Footer styling */
+.footer-top {
+  background-color: var(--primary-color);
+  color: var(--text-dark);
+}
+
+.footer-bottom {
+  background-color: var(--secondary-color) !important;
+  color: var(--text-light);
+}
+
+.footer-copyright span {
+  color: var(--primary-color);
+}
+
+/* Mobile menu */
+#menu_bootstrap {
+  background-color: var(--secondary-color);
+}
+
+.mm-navbar {
+  background-color: var(--primary-color);
+}
+
+.mm-navbar .mm-title {
+  color: var(--text-dark) !important;
+}
+
+.mm-listview > li > a {
+  color: var(--text-light);
+}
+
+.mm-listview > li:hover > a {
+  color: var(--primary-color);
+}
